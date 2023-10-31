@@ -1,0 +1,393 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: sans-serif;
+   background: #1B2330;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+
+img {
+   display: inline-block;
+}
+
+span {
+   display: inline-block;
+}
+
+button {
+   cursor: pointer;
+}
+
+.container {
+   width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+    /* HEADER */
+
+.header_box {
+   padding: 57px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 57px;
+}
+
+.header_list {
+   display: flex;
+   gap: 57px;
+}
+
+.header_link {
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+    /* MAIN */
+
+.main_box {
+   text-align: center;
+   margin-bottom: 158px;
+}
+
+.main_title {
+   width: 720px;
+   color: #FFF;
+   margin: 0 auto;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 60px;
+   margin-bottom: 32px;
+}
+
+.main_text {
+   width: 570px;
+   color: #FFF;
+   margin: 0 auto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   margin-bottom: 32px;
+}
+
+.main_btn {
+   margin: 0 auto;
+   background: linear-gradient(152deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+   padding: 19px 95px;
+   border: none;
+   border-radius: 30px;
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.main_btn:hover {
+   opacity: 0.8;
+}
+
+.main_btn:active {
+   opacity: 0.6;
+}
+
+.hero {
+   margin: 0 auto;
+}
+
+.main_list {
+   margin: 0 auto;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 880px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 80px 147px;
+   margin-bottom: 137px;
+}
+
+.main_item {
+   justify-content: center;
+   width: 349px;
+   align-items: center;
+}
+
+.main_img {
+   margin: 0 auto;
+   margin-bottom: 16px;
+}
+
+.main_h4 {
+   color: #FFF;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 9px;
+}
+
+.main_tekst {
+   width: 360px;
+   color: #FFF;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 21px;
+}
+
+     /* SERVICES */
+
+.services {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 179px;
+}
+
+.services_img {
+   width: 614px;
+   height: 463px;
+   background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.services_title {
+   width: 506px;
+   color: #FFF;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 50px;
+   margin-bottom: 19px;
+}
+
+.services_text {
+   width: 563px;
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   margin-bottom: 16px;
+}
+
+.services_btn {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+
+.services_link {
+   margin-right: 8px;
+   color: #62E0D9;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.chiziqcha {
+   width: 166px;
+   height: 1px;
+   background-color: #62E0D9;
+}
+
+.bmw {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   margin-bottom: 360px;
+}
+
+.bmwm {
+   width: 360px;
+   height: 200px;
+   padding: 40px 26px 26px 26px;
+   border-radius: 3.933px;
+   background: #202A3C;
+   box-shadow: 5px 5px 8px 0px rgba(56, 56, 56, 0.10);
+   margin-bottom: 201px;
+}
+
+.bmwm::after {}
+
+.bmw_m_power {
+   display: flex;
+}
+
+.bmw_text {
+   width: 290px;
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   letter-spacing: 0.5px;
+   margin-bottom: 24px;
+}
+
+.bmw_img {
+   width: 24px;
+   height: 24px;
+}
+
+.bmws {
+   margin-left: 8px;
+}
+
+.bmw_title {
+   color: #FFF;
+   font-size: 10px;
+   font-weight: 700;
+   line-height: 12px;
+   letter-spacing: 0.5px;
+}
+
+.bmw_p {
+   color: #FFF;
+   font-size: 7px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 10px;
+   letter-spacing: 0.5px;
+}
+
+.footer {
+   position: relative;
+   width: 100%;
+   padding: 200px 0 97px 0;
+   background-color: #0B1524;
+}
+
+.rolls-royce {
+   text-align: center;
+   position: absolute;
+   top: -40%;
+   right: 50%;
+   transform: translate(50%);
+   width: 863px;
+   height: 275px;
+   justify-content: center;
+   border-radius: 9px;
+   background: #1B2330;
+   box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rolls-title {
+   color: #FFF;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 48px;
+   margin-bottom: 16px;
+}
+
+.rolls-text {
+   width: 650px;
+   color: #FFF;
+   margin: 0 auto;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   margin-bottom: 38px;
+}
+
+.rolls-btn {
+   width: 480px;
+   height: 48px;
+   fill: #FFF;
+   padding: 17px 208px 15px 38px;
+   background: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+   color: #C0C0C0;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   border: none;
+   border-radius: 30px;
+   margin-right: 29px;
+}
+
+.rolls-royce-btn {
+   width: 200px;
+   height: 48px;
+   background: linear-gradient(152deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+   padding: 17px 26px;
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 700;
+   border: none;
+   border-radius: 30px;
+}
+
+.footer-bottom {
+   display: flex;
+}
+
+.footer-footer {
+   display: flex;
+}
+
+.footer-bottom-text {
+   width: 339px;
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+.footer-bottom-tel {
+   color: #FFF;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+}
+
+.footer-tell {
+   display: flex;
+   width: 158px;
+   height: 24px;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 23.5px;
+}
+
+.footer-bottom-links {
+   display: flex;
+}
+
+.footer-list {
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 16px;
+}
+
+.footer-bottom-link {
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.footer-7 {
+   display: flex;
+}
